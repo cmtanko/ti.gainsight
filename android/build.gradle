@@ -1,0 +1,11 @@
+repositories {
+    maven {
+        url "https://github.com/Gainsight/px-android/raw/main/"
+    }
+    google()  // Ensure Google Maven is included
+    mavenCentral()  // Optional but recommended
+}
+
+dependencies {
+    implementation 'com.gainsight.px:mobile-sdk:1.12.0'
+}
