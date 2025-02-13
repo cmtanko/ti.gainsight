@@ -26,3 +26,4 @@
 //
 // IMPORTANT NOTE: always use $(inherited) in your overrides
 // 
+//HEADER_SEARCH_PATHS=$(SRCROOT)/../../node_modules/pxkit/ios/** $(SRCROOT)/../../node_modules/pxkit/** $(SRCROOT)/../../pxkit/ios/** $(SRCROOT)/../../pxkit/**

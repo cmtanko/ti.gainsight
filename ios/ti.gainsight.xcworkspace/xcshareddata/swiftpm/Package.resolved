@@ -1,0 +1,15 @@
+{
+  "originHash" : "575ea2aa5bd8cb21efcd951687dd1b3cec4a9ff18661c371ad6434572c8b8a2c",
+  "pins" : [
+    {
+      "identity" : "px-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Gainsight/px-ios.git",
+      "state" : {
+        "revision" : "6b4583bca2d8c9838d12c75f0bccf4d92c347013",
+        "version" : "1.12.1"
+      }
+    }
+  ],
+  "version" : 3
+}

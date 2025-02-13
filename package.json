@@ -8,8 +8,12 @@
   },
   "scripts": {
     "build": "cd android && ti build -p android --build-only",
+    "upload": "unzip -o ./android/dist/ti.gainsight-android-1.0.0.zip -d ./android/dist/ && rm -rf ../lucidity-app/modules/android/ti.gainsight && mv -f ./android/dist/modules/android/ti.gainsight ../lucidity-app/modules/android/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "pxkit": "^0.1.1"
+  }
 }

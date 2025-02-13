@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		01785AE28E5F0788B3BACC59B33E869C /* Gainsight-PX */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6112C33A8BCAF25C3F1D13ADDF87E6E9 /* Build configuration list for PBXAggregateTarget "Gainsight-PX" */;
+			buildPhases = (
+				5B00FCDCA90B7F5A014DE3F611D0D6A7 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "Gainsight-PX";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		F5B8E1448C10657A4FC378873CC7E255 /* Pods-ti.gainsight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C7429F60283D81282C94156E2584BB /* Pods-ti.gainsight-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03ED7438242A991DC6501F25035CB0A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01785AE28E5F0788B3BACC59B33E869C;
+			remoteInfo = "Gainsight-PX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AC092604AC409157F48B83E2E899F33 /* Pods-ti.gainsight-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ti.gainsight-acknowledgements.plist"; sourceTree = "<group>"; };
+		204BF55A5E6FBCEBE8EF8E0738D416D6 /* Gainsight-PX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Gainsight-PX.debug.xcconfig"; sourceTree = "<group>"; };
+		2BDB6D5CA0D18D9A51845258295F642F /* PXKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = PXKit.xcframework; sourceTree = "<group>"; };
+		32EDE6EAA48D1006316935FBE129A3B4 /* Pods-ti.gainsight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ti.gainsight.release.xcconfig"; sourceTree = "<group>"; };
+		4BF1447C65DE0A25F5C3C3625042326B /* Gainsight-PX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Gainsight-PX.release.xcconfig"; sourceTree = "<group>"; };
+		91B3C9DCF74F90B4B41B7AD7A688D1B4 /* Pods-ti.gainsight */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-ti.gainsight"; path = "libPods-ti.gainsight.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FFF1C1DFF3645385DF561F5F0A82C80 /* Pods-ti.gainsight-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ti.gainsight-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A91BEEC0395BB11755301AB15D213992 /* Pods-ti.gainsight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ti.gainsight.debug.xcconfig"; sourceTree = "<group>"; };
+		B1C7429F60283D81282C94156E2584BB /* Pods-ti.gainsight-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ti.gainsight-dummy.m"; sourceTree = "<group>"; };
+		D671C3F97355E7E971A198E6CE39BE91 /* Gainsight-PX-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Gainsight-PX-xcframeworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBFD563D29BD7533630980DE18051B71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EDE4A77147D2EBAD32667D2B138F178 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BDB6D5CA0D18D9A51845258295F642F /* PXKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		435EB15F09C79623203CFFE4543B07D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C823C6A5FD775B8255538044EFABB9B9 /* Gainsight-PX */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		54962EE98ABD9EAE87F1C2A3EA27BA77 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D671C3F97355E7E971A198E6CE39BE91 /* Gainsight-PX-xcframeworks.sh */,
+				204BF55A5E6FBCEBE8EF8E0738D416D6 /* Gainsight-PX.debug.xcconfig */,
+				4BF1447C65DE0A25F5C3C3625042326B /* Gainsight-PX.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Gainsight-PX";
+			sourceTree = "<group>";
+		};
+		661956FD92707525B9ECE9E2C884BA65 /* Pods-ti.gainsight */ = {
+			isa = PBXGroup;
+			children = (
+				9FFF1C1DFF3645385DF561F5F0A82C80 /* Pods-ti.gainsight-acknowledgements.markdown */,
+				1AC092604AC409157F48B83E2E899F33 /* Pods-ti.gainsight-acknowledgements.plist */,
+				B1C7429F60283D81282C94156E2584BB /* Pods-ti.gainsight-dummy.m */,
+				A91BEEC0395BB11755301AB15D213992 /* Pods-ti.gainsight.debug.xcconfig */,
+				32EDE6EAA48D1006316935FBE129A3B4 /* Pods-ti.gainsight.release.xcconfig */,
+			);
+			name = "Pods-ti.gainsight";
+			path = "Target Support Files/Pods-ti.gainsight";
+			sourceTree = "<group>";
+		};
+		984CFD54DB8A92030632C75B64328B90 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				661956FD92707525B9ECE9E2C884BA65 /* Pods-ti.gainsight */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B57DEDA7551DC6D3BF73B18787734ADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91B3C9DCF74F90B4B41B7AD7A688D1B4 /* Pods-ti.gainsight */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C823C6A5FD775B8255538044EFABB9B9 /* Gainsight-PX */ = {
+			isa = PBXGroup;
+			children = (
+				0EDE4A77147D2EBAD32667D2B138F178 /* Frameworks */,
+				54962EE98ABD9EAE87F1C2A3EA27BA77 /* Support Files */,
+			);
+			name = "Gainsight-PX";
+			path = "Gainsight-PX";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				435EB15F09C79623203CFFE4543B07D2 /* Pods */,
+				B57DEDA7551DC6D3BF73B18787734ADE /* Products */,
+				984CFD54DB8A92030632C75B64328B90 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04F964BFDEB0D6B3750FFB744D78521C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2B55AE73D3F569461C40C92F0BE6C41D /* Pods-ti.gainsight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8645D2A16E40C8545D4AB4337C2C3B4D /* Build configuration list for PBXNativeTarget "Pods-ti.gainsight" */;
+			buildPhases = (
+				04F964BFDEB0D6B3750FFB744D78521C /* Headers */,
+				513380E5C5A1ACF5BFFE2A06308E9EEE /* Sources */,
+				BBFD563D29BD7533630980DE18051B71 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AD69B7ECFE9E14FDB6E44C9D69DE45D /* PBXTargetDependency */,
+			);
+			name = "Pods-ti.gainsight";
+			productName = "Pods-ti.gainsight";
+			productReference = 91B3C9DCF74F90B4B41B7AD7A688D1B4 /* Pods-ti.gainsight */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B57DEDA7551DC6D3BF73B18787734ADE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01785AE28E5F0788B3BACC59B33E869C /* Gainsight-PX */,
+				2B55AE73D3F569461C40C92F0BE6C41D /* Pods-ti.gainsight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B00FCDCA90B7F5A014DE3F611D0D6A7 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Gainsight-PX/Gainsight-PX-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Gainsight-PX/Gainsight-PX-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Gainsight-PX/Gainsight-PX-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		513380E5C5A1ACF5BFFE2A06308E9EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B8E1448C10657A4FC378873CC7E255 /* Pods-ti.gainsight-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AD69B7ECFE9E14FDB6E44C9D69DE45D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Gainsight-PX";
+			target = 01785AE28E5F0788B3BACC59B33E869C /* Gainsight-PX */;
+			targetProxy = 03ED7438242A991DC6501F25035CB0A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		46C2DF66EDF3B502B76DA38884D551D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32EDE6EAA48D1006316935FBE129A3B4 /* Pods-ti.gainsight.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B2D2B06720DB1BB7D9A39A011F01F372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BF1447C65DE0A25F5C3C3625042326B /* Gainsight-PX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5EA4D29B9F82207C271C89845F15DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A91BEEC0395BB11755301AB15D213992 /* Pods-ti.gainsight.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F57473C9A2EFB8CEB246C4252E4A8D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 204BF55A5E6FBCEBE8EF8E0738D416D6 /* Gainsight-PX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6112C33A8BCAF25C3F1D13ADDF87E6E9 /* Build configuration list for PBXAggregateTarget "Gainsight-PX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57473C9A2EFB8CEB246C4252E4A8D4B /* Debug */,
+				B2D2B06720DB1BB7D9A39A011F01F372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8645D2A16E40C8545D4AB4337C2C3B4D /* Build configuration list for PBXNativeTarget "Pods-ti.gainsight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EA4D29B9F82207C271C89845F15DDE /* Debug */,
+				46C2DF66EDF3B502B76DA38884D551D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -9,6 +9,7 @@
 #import "TiBase.h"
 #import "TiHost.h"
 #import "TiUtils.h"
+#import <PXKit/PXKit.h> 
 
 @implementation TiGainsightModule
 

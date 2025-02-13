@@ -1,0 +1,16 @@
+PODS:
+  - Gainsight-PX (1.12.1)
+
+DEPENDENCIES:
+  - Gainsight-PX
+
+SPEC REPOS:
+  trunk:
+    - Gainsight-PX
+
+SPEC CHECKSUMS:
+  Gainsight-PX: e37e38f12a03573b516f438a2ee0d3ebd52a631c
+
+PODFILE CHECKSUM: 02d94a87e50a72d88b6fdbbbeacd249494be7bb3
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,3 @@
+target 'ti.gainsight' do
+  pod 'Gainsight-PX'
+end
