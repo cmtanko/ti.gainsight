@@ -154,7 +154,7 @@ public class TiGainsightModule extends KrollModule {
 
             user.putCustomAttributes(userAttributes);
 
-            String accountId = userdata.getString("title");
+            String accountId = userdata.getString("accountId");
             Log.d(LCAT, "Creating account with ID: " + accountId);
             String plan = userdata.getString("plan");
 
