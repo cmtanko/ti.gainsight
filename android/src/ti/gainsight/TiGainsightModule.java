@@ -144,7 +144,6 @@ public class TiGainsightModule extends KrollModule {
             User user = new User(userId);
 
             user.putAccountId(userdata.getString("accountId"));
-            user.putIdentifyIdHash(userdata.getString("identifyId"));
 
             Map<String, Object> userAttributes = new HashMap<>();
             userAttributes.put("appversion", userdata.getString("appversion"));
