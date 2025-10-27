@@ -42,7 +42,7 @@ public class TiGainsightModule extends KrollModule {
         Log.d("GainsightPX", "LOGS");
         GainsightPX instance = builder.build();
         GainsightPX.setSingletonInstance(instance);
-        Log.d("GainsightPX", "GainsightPX Instance: " + instance);
+        Log.d(LCAT, "GainsightPX initialized with productId: " + productId);
 
         if (callback != null) {
             KrollDict response = new KrollDict();
@@ -64,7 +64,7 @@ public class TiGainsightModule extends KrollModule {
                 callback.callAsync(getKrollObject(), response);
             }
         } catch (Exception e) {
-            Log.e("GainsightPX", "Error enabling GainsightPX", e);
+            Log.e(LCAT, "Error enabling GainsightPX", e);
 
             if (callback != null) {
                 KrollDict errorResponse = new KrollDict();
@@ -76,7 +76,7 @@ public class TiGainsightModule extends KrollModule {
 
     @Kroll.method
     public void screenEvent(String screen) {
-        Log.d("GainsightPX", "Tracking screen event: " + screen);
+        Log.d(LCAT, "Tracking screen event: " + screen);
         GainsightPX.with().screen(screen);
     }
 
@@ -105,7 +105,7 @@ public class TiGainsightModule extends KrollModule {
                 callback.callAsync(getKrollObject(), successResponse);
             }
         } catch (Throwable tr) {
-            Log.e("GainsightPX", "Error identifying user and account", tr);
+            Log.e(LCAT, "Error identifying user and account", tr);
 
             if (callback != null) {
                 KrollDict errorResponse = new KrollDict();
