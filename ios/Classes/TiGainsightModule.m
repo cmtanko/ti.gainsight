@@ -1,8 +1,8 @@
 /**
  * ti.gainsight
  *
- * Created by Your Name
- * Copyright (c) 2025 Your Company. All rights reserved.
+ * Created by Suchan Badyakar
+ * Copyright (c) 2025 by Suchan Badyakar. All rights reserved.
  */
 
 #import "TiGainsightModule.h"
@@ -33,29 +33,12 @@
   // This method is called when the module is first loaded
   // You *must* call the superclass
   [super startup];
-  DebugLog(@"[DEBUG] %@ loaded", self);
+  DebugLog(@"[INFO] TiGainsight module loaded");
 }
 
-#pragma Public APIs
+#pragma mark Public APIs
 
-- (NSString *)example:(id)args
-{
-  // Example method. 
-  // Call with "MyModule.example(args)"
-  return @"hello world";
-}
-
-- (NSString *)exampleProp
-{
-  // Example property getter. 
-  // Call with "MyModule.exampleProp" or "MyModule.getExampleProp()"
-  return @"Titanium rocks!";
-}
-
-- (void)setExampleProp:(id)value
-{
-  // Example property setter. 
-  // Call with "MyModule.exampleProp = 'newValue'" or "MyModule.setExampleProp('newValue')"
-}
+// Note: iOS implementation for GainsightPX is not yet implemented
+// This module currently supports Android only
 
 @end

@@ -5,6 +5,8 @@
 
 The TiGainsight module is a Titanium wrapper for GainsightPX, enabling tracking of user engagement, screen events, and user identification in your Titanium mobile app.
 
+**Note**: Currently supports Android only. iOS implementation is pending.
+
 ## Installation
 
 1. Download or clone the TiGainsight module.
@@ -75,3 +77,5 @@ Gainsight.crashApp('native');
 ## License
 
 This module is licensed under the MIT License.
+
+Copyright (c) 2025 Suchan Badyakar
