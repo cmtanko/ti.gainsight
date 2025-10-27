@@ -1,8 +1,8 @@
 /**
  * ti.gainsight
  *
- * Created by Your Name
- * Copyright (c) 2025 Your Company. All rights reserved.
+ * Created by Suchan Badyakar
+ * Copyright (c) 2025 by Suchan Badyakar. All rights reserved.
  */
 
 #import "TiModule.h"

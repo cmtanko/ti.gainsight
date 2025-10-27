@@ -5,10 +5,10 @@
 version: 1.0.0
 apiversion: 4
 architectures: arm64-v8a armeabi-v7a x86 x86_64
-description: ti.gainsight
-author: Your Name
-license: Specify your license
-copyright: Copyright (c) 2025 by Your Company
+description: Titanium module for GainsightPX integration
+author: Suchan Badyakar
+license: MIT
+copyright: Copyright (c) 2025 by Suchan Badyakar
 
 # these should not be edited
 name: ti.gainsight
